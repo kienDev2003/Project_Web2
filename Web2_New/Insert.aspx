@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thêm Sản Phẩm </title>
     <link rel="stylesheet" href="./Assets/css/styleInsert.css">
+    <link rel="shortcut icon" href="./Assets/images/vnua.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 </head>
 <body>
@@ -50,10 +51,11 @@
                 </div>
                 <div class="button">
                     <input runat="server" onserverclick="btnInsert_CLick" type="submit" value="Thêm Sản Phẩm">
-                    <input runat="server" onserverclick="btnInsert_CLick" type="submit" value="Quay Lại Trang Chủ" style="width:200px;
-                        margin-top:15px;font-size:12px">
+                    <a href="./Home.aspx">
+                        <input id="cancel" runat="server" type="button" value="Quay Lại Trang Chủ" style="width: 200px; margin-top: 15px; font-size: 12px"></a>
                 </div>
             </form>
+
         </div>
     </div>
 </body>

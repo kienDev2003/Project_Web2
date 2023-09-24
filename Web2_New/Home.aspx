@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Bin-It">
     <meta property="og:description" content="Wellcome to my Website" />
+    <link rel="shortcut icon" href="./Assets/images/vnua.png">
 
     <title>Quản Lý Điện Thoại</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"

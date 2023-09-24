@@ -54,12 +54,14 @@ namespace Web2_New
         {
             Conn.GetConnection();
 
-            // Tạo một DataTable chứa dữ liệu
+            // Tạo một DataTable và nạp dữ liệu từ cơ sở dữ liệu
             DataTable dt = new DataTable();
-            
+            Conn.GetConnection();
             String sql = "SELECT * FROM tbl_Products";
             SqlDataAdapter data = new SqlDataAdapter(sql, Conn.GetConnection());
             data.Fill(dt);
+
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
             // Tạo một tệp tin Excel tạm thời
             string tempFileName = Path.GetTempFileName();

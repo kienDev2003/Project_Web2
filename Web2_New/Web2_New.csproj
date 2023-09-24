@@ -130,6 +130,7 @@
     <Content Include="Assets\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
     <Content Include="Assets\fonts\font-awesome-4.7.0\scss\_variables.scss" />
     <Content Include="Assets\images\fg-img.png" />
+    <Content Include="Assets\images\vnua.png" />
     <Content Include="Assets\images\team.jpg" />
     <Content Include="Assets\js\footable.js" />
     <Content Include="Assets\js\main.js" />
